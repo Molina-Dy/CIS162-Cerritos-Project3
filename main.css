@@ -1,0 +1,84 @@
+/* Heading Style */
+
+h1 {
+    font-family: 'Lucida Console';
+    color: darkgreen;
+    font-size: 2.1em;
+    letter-spacing: 0.1em;
+}
+
+/* Body Header Styles */
+
+body > header > nav.horizontalNavigation li {
+    width: 25%;
+}
+
+/* Horizontal Navigation Style */
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    background-color: darkseagreen;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Left Column Style */
+
+section#leftColumn {
+    float: left;
+    width: 45%;
+    padding: 0.5em
+}
+
+/* Right Column Style */
+
+section#rightColumn {
+    float: right;
+    width: 45%;
+    padding: 0.5em;
+}
+/* Body Style */
+
+body {
+    width: auto;
+    color: forestgreen;
+    background-color: black;
+    font-family: monospace;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;   
+}
+
+/* Body Styles */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+    min-width: 300px;
+    width: 95%
+}
+
+/* Body List Style */
+
+body > ul {list-style: circle;
+    line-height: 2em;
+}
+
+
+/* Footer Style */
+
+footer{ 
+    clear: left;
+    color: darkslategrey;
+    text-align: center;
+    background-color: darkseagreen
+}
